@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>Blog</title>
+</head>
+<body>
+
+ <!-- Navbar -->
+ <nav id="navbar">
+
+  <div id="logo">
+    <img src="/css/messifcb.jpg" alt="Talha Zahid">
+  </div>
+  <ul>
+    <li class="item"><a href="/articles/welcome">Welcome</a></li>
+    <li class="item"><a href="/articles/specialfeatures">Special Features</a></li>
+    <li class="item"><a href="/articles/supersports">Super Sports</a></li>
+    <li class="item"><a href="/articles/contact">Contact Page</a></li>
+  </ul>
+</nav>
+  
+
+
+
+
+
+
+  <div class="container">
+    <h1 class="mb-4">New Article</h1>
+
+    <form action="/articles" method="POST">
+      <%- include('_form_fields') %>
+    </form>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="section-center">
+      <div  class="social-icons">
+        <!-- social icon -->
+        <a style="margin: 30px ;" href="https://www.facebook.com/"><i class="fa fa-facebook-square" style="font-size:35px;color:rgb(12, 12, 82);"></i></a>
+        <!-- end of social icon -->
+        <!-- social icon -->
+        <a style="margin: 30px ; ;" href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" style="font-size:35px;color:rgb(168, 8, 8);"></i></a>
+        <!-- end of social icon -->
+        <!-- social icon -->
+        <a style="margin: 30px ;" href="https://www.youtube.com/"><i class="fa fa-youtube-play" style="font-size:35px;color:rgb(231, 4, 4);" href="https://www.google.com/"></i></a>
+        <!-- end of social icon -->
+      </div>
+      <p class="footer-text">
+       <span style="color: rgb(255, 255, 255);"><strong>Best Sports Blogs</strong> </span> 
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

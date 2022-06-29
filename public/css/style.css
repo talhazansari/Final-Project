@@ -1,0 +1,100 @@
+body{
+    background-image: url("messifcb.jpg");
+}
+
+h1{
+    color: white;
+}
+
+
+
+
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99999999;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #ad4040;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 70px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/* footer */
+
+.footer {
+    background: rgb(46, 45, 45);
+    text-align: center;
+  }
+
+
+  .social-icon {
+    color: var(--mainWhite);
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    transition: var(--mainTransition);
+  }
+  .social-icon:hover {
+    color: white;
+  }
+  
+
+  .footer {
+    background: #ad4040;
+    text-align: center;
+    height: 110px;
+    margin-top: 40px;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+        /* Height of the footer*/ 
+  }

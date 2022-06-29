@@ -1,0 +1,162 @@
+body{
+    background-image: url("messifcb.jpg");
+}
+
+h1{
+    color: white;
+}
+
+
+
+
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99999999;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #ad4040;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 70px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/* footer */
+
+.footer {
+    background: rgb(46, 45, 45);
+    text-align: center;
+  }
+
+
+  .social-icon {
+    color: var(--mainWhite);
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    transition: var(--mainTransition);
+  }
+  .social-icon:hover {
+    color: white;
+  }
+  
+
+  .footer {
+    background: rgb(46, 45, 45);
+    text-align: center;
+  }
+
+
+  .social-icon {
+    color: var(--mainWhite);
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    transition: var(--mainTransition);
+  }
+  .social-icon:hover {
+    color: white;
+  }
+  
+
+  .footer {
+    background: #ad4040;
+    text-align: center;
+    height: 70px;
+   
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    
+        /* Height of the footer*/ 
+  }
+
+
+/* Favourites */
+#favourite{
+    margin: 34px;
+    display: flex;
+    
+   
+}
+#favourite .box{ 
+    border: 2px solid #bf9c0e;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    background-color: #a1ebfd;
+}
+
+#favourite .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#favourite .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+
+#Favourites{ 
+    position: relative;
+}
+
+#Favourites::before{
+ content: "";
+ position: absolute;
+ /* background: url('hobby.jpg'); */
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.28;
+}
